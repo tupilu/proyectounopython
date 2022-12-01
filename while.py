@@ -5,7 +5,7 @@ while not edad.isdigit():
 edad= int(edad)
 if edad <=25:
      print("Estudiante")
-elif edad > 25 :
+elif edad >= 25 :
         print("Profesor")
-elif edad>= 65:
+elif edad> 65:
             print("Master")
